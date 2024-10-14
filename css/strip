@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+}
+
+.inner {
+    background-color: red;
+    margin: 15px;
+    border-radius: 5px;  
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.container:hover > .inner {         width: 100%;
+}
+
+.container > .ease {
+    transition: width 3s ease;
+}
+
+.container > .ease-in {
+    transition: width 3s ease-in;
+}
+
+.container > .ease-out {
+    transition: width 3s ease-out;
+}
+
+.container > .ease-in-out {
+    transition: width 3s ease-in-out;
+}
+
+
+.container > .linear {
+    transition: width 3s linear;
+}
