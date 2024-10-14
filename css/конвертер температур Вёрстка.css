@@ -1,0 +1,33 @@
+html, body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text1"] {
+    width: 90%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+/*
+.container:hover {
+    transform: scale(2);
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    
+}
+*/
+:focus {
+    opacity: 1;
+}
